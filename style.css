@@ -129,24 +129,27 @@ body {
     font-family: Lato;
     font-size: 20px;
     font-weight: 700;
-    margin-top:20px;
+    margin-top: 20px;
     line-height: 35px;
 
 }
+
 /* underline animation */
-.underline{
+.underline {
     width: 40%;
     height: 5px;
-    background:tomato;
+    background: tomato;
     border-radius: 3px;
-    position:relative;
+    position: relative;
     top: 8px;
     left: 0;
 
     margin-left: 140px;
     overflow: hidden;
 
-}.underline span{
+}
+
+.underline span {
     width: 15px;
     height: 100%;
     background: #fff;
@@ -156,14 +159,17 @@ body {
     left: 10px;
     animation: moving 2s linear infinite;
 }
+
 @keyframes moving {
-    0%{
+    0% {
         left: -20px;
     }
-    100%{
+
+    100% {
         left: 100%;
     }
 }
+
 /* underline animation */
 
 
@@ -214,7 +220,9 @@ body {
 
 }
 
-.offer-title {margin-left: 10px;}
+.offer-title {
+    margin-left: 10px;
+}
 
 .offer-desc {
     flex-direction: column;
@@ -225,20 +233,56 @@ body {
 
 
 }
-.btn-primary{
-margin-left: 250px;
+
+.btn-primary {
+    margin-left: 250px;
 }
 
 /* flash deals css */
 
 /* second flower image  */
-.main2-imgs-boxs{
-    margin-top: 40px ;
+.main2-imgs-boxs {
+    margin-top: 40px;
+
 
 
 }
-.box2{
+
+.box2 {
     box-shadow: 3px 4px 8px;
 
 }
+
 /* second flower image  */
+
+/* deals part  */
+.email {
+    border-radius: 8px;
+    border: none;
+    width: 700px;
+    height: 64px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+}
+
+.deals-container {
+    background-image: url('./Flower/Rectangle\ 9.png');
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    margin: auto;
+
+}
+
+.deals-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+}
+.email-btn{
+
+}
+/* deals part  */
