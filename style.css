@@ -89,6 +89,7 @@ body {
 .main1-imgs-boxs {
     display: flex;
     gap: 40px;
+    margin-top:50px;
     justify-content: center;
 }
 
@@ -273,16 +274,35 @@ body {
     height: 449px;
     border-radius: 8px;
     margin: auto;
+    display: block;
+    align-items: center;
+    margin-top: 90px;
+    position: relative;
 
 }
 
 .deals-desc {
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
+    /* text-align: center; */
     font-size: 14px;
     line-height: 30px;
-}
-.email-btn{
+    position:absolute;
+    top: 50%;
+    left: 45%;
 
 }
+.email-btn{
+    margin-left: 300px;
+
+    position: absolute;
+    top: 55%;
+}
+
+.deals-title{
+    /* text-align: center; */
+    position: absolute;
+    top: 40%;
+    left: 43%;
+}
+
 /* deals part  */
