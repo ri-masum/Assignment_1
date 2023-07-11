@@ -386,6 +386,7 @@ form textarea:focus::placeholder{
     border-radius: 10px;
     border: none;
     margin-top: 5px;
+    resize: none;
 }
 
 /* footer part  */
